@@ -1,8 +1,8 @@
 
 .container{
-    height: 250px;
+    height:350px;
     width: 400px;
-    background-color: rgb(125, 171, 189);
+    background-color:rgb(232, 232, 232);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,12 +10,13 @@
     position: relative;
     gap: 1%;
     border-radius: 10px;
+    opacity: 75%;
 }
 
 .bar1{
     width: 250px;
     padding: 7px;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 2px solid rgb(226, 226, 226);
     margin-top: 10px;
 }
@@ -24,8 +25,8 @@
 
     width: 250px;
     padding: 7px;
-    border-radius: 10px;
-    border: 2px solid white;
+    border-radius: 5px;
+    border: 2px solid rgb(226, 226, 226);
     margin-top: 6px;
 }
 
@@ -35,21 +36,38 @@ input::placeholder{
 
 .box1{
     height: 40px;
-    background-color: rgb(125, 171, 189);
+    background-color:rgb(238, 237, 237);
     display: flex;
     align-items: center;
     position: relative;
 }
-
-.or{
-    color: black;
+.text1{
+    margin-top: -20px;
+    opacity: 50%;
 }
 
-.logbtn{
-    height: 30px;
-    width: 100px;
-    border-radius: 10px;
+.sninbtn{
+    height: 35px;
+    width: 200px;
+    border-radius: 5px;
     border: 2px solid rgb(244, 244, 244);
     color: rgb(18, 90, 90);
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(88, 218, 194);
+}
+.box1{
+    background-color:rgb(232, 232, 232) ;
+    width: 250px;
+    bottom: 15px;
+}
+.text2{
+    opacity: 50%;
+    margin-right: 20px;
+}
+.snupbtn{
+     height: 35px;
+    width: 75px;
+    border-radius: 5px;
+    border: 2px solid rgb(88, 218, 194);
+    color: rgb(2, 2, 2);
+    background-color:  rgb(238, 237, 237);
 }
